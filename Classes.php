@@ -25,7 +25,7 @@ class Pioneer{
     public function myDoing($hikisu){
         //$this->inputYourData = $_POST[$this->getMessage()];
         echo '<center>';
-        echo $hikisu.'インスタンスに内包されたデータを表示します。'.'<br>';
+        echo '<a href="details.php">'.$hikisu.'インスタンスに内包されたデータを表示します。'.'</a><br>';
         echo '<img src="'.$this->getImage().'" >'.'<br>';
         echo 'このデータに関する説明：'.$this->getImageComment().'<br>';
         echo 'このインスタンスから感じる強みは'.$this->getParameter().'となります。';
